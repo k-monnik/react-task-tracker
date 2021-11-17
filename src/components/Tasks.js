@@ -1,5 +1,6 @@
-const Tasks = ({ tasks }) => {
+import Task from './Task'
 
+const Tasks = ({ tasks }) => {
     return (
         <>
             {tasks.map((task) => (
